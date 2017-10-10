@@ -129,16 +129,3 @@ menuImage{
     flex-direction:column;
     margin:5px;
 }
-
-#prijs{
-    color:red;
-    margin:0;
-}
-
-#btnKoop{
-    background-color:#f2c626;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;

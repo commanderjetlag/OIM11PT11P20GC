@@ -1,6 +1,27 @@
 * {
     font-family: Helvetica;
 }
+input[type=text], input[type=email]{
+    border: 1px solid #e5e5e5;
+    border-radius: 2px;
+    padding: 5px;
+    width: 100%;
+}
+textarea {
+    border: 1px solid #e5e5e5;
+    border-radius: 2px;
+    padding: 5px;
+    width: 100%;
+}
+.wrapper {
+    width: 50%;
+    margin: auto;
+}
+.container {
+    border: 1px solid #e5e5e5;
+    padding: 10px;
+    margin-bottom: 10px;
+}
 ul.nav {
     border: 1px solid lightgray;
     border-top: 0px;
@@ -12,6 +33,7 @@ ul.nav {
     color: white;
     line-height: 36px;
     text-align: center;
+    margin-top: -8px;
 }
 ul.nav li {
     float: left;
@@ -32,13 +54,15 @@ ul.nav li.current a {
 footer {
     position: absolute;
     border-radius: 2px;
-    margin-left:5px;
     padding: 5px;
     right: 4px;
     bottom: 0;
     width: 99%;
     height: 60px;
     background: #619AE6;
+    /*background: #EE2E24;*/
+    /* background: #32A23D;*/
+    /* background: #EED011;*/
 }
 .centerIcon {
     text-align: center;

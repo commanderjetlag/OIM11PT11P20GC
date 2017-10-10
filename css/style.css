@@ -1,6 +1,13 @@
 * {
     font-family: Helvetica;
 }
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+}
 input[type=text], input[type=email]{
     border: 1px solid #e5e5e5;
     border-radius: 2px;
@@ -58,7 +65,7 @@ footer {
     right: 4px;
     bottom: 0;
     width: 99%;
-    height: 60px;
+    height: 30px;
     background: #619AE6;
     /*background: #EE2E24;*/
     /* background: #32A23D;*/
@@ -90,8 +97,7 @@ footer {
     cursor: pointer;
     opacity: 0.9;
 }
-
-menuImage{
+.menuImage{
     Position: absolute;
     left: 30px;
     top: 30px;
@@ -104,7 +110,6 @@ menuImage{
     height: auto;
     width: auto\9; /* ie8 */
 }
-
 .bestellen{
     position:absolute;
     display:flex;
@@ -118,14 +123,40 @@ menuImage{
     height:auto;
     border:solid;
 }
-
 .bestellen > img{
     width:50%;
     height:auto;
 }
-
 .productDescription{
     display:flex;
     flex-direction:column;
     margin:5px;
+}
+#prijs{
+    color:red;
+    margin:0;
+}
+#btnKoop{
+    background-color:#f2c626;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+}
+.nieuwsItem {
+    padding: 10px 0px;
+    font-size: 90%;
+}
+.footerBox {
+    text-align: center;
+    width: 24.2%;
+    display: inline-block;
+    padding: 5px;
+}
+.footerBox > a {
+    color: white;
+}
+.footerBox > a:hover {
+    opacity: 0.9;
 }

@@ -8,15 +8,22 @@
 	<?php include 'include/menu.php'; ?>
 	<div class="wrapper">
 		<div class="container">
-			djgdfiogkdjgoisiogsuigk
+			<div class="contactHalf">
+				<center><img src="img/logo_memory_game.png"></center>
+			</div>
+			<div class="contactHalf">
+				<center><b>The Memory Game</b><br/><br/>
+				<a href="bestellen" class="btnOveral">Bestel hem nu!</a></center>
+			</div>
 		</div>
 		<div class="container">
-			djgdfiogkdjgoisiogsuigk
+			<a href="nieuwsitem?item=1"><b>The Memory Game genomineerd voor innoverent product van het jaar</b></a>
+			<div class="nieuwsItem">
+				The Memory Game is genomineerd voor het meest innoverend product van jaar. Breng je stem uit op www.innovatie.nl!
+			</div>
 		</div>
 	</div>
-	<footer>
-		Dit is de footer
-	</footer>
+	<?php include 'include/footer.php'; ?>
 </body>
 <?php include 'include/js.php'; ?>
 </html>

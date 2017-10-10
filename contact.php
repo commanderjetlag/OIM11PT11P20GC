@@ -47,9 +47,7 @@
 			</form>
 		</div>
 	</div>
-	<footer>
-		Dit is de footer
-	</footer>
+	<?php include 'include/footer.php'; ?>
 </body>
 <?php include 'include/js.php'; ?>
 </html>

@@ -89,3 +89,22 @@ footer {
     color:red;
     margin:0;
 }
+
+#btnKoop{
+    background-color:#f2c626;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    box-shadow: 0 3px #999;
+}
+
+#btnKoop:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

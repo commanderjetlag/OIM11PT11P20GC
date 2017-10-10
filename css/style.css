@@ -1,39 +1,17 @@
 * {
     font-family: Helvetica;
 }
-input[type=text], input[type=email]{
-    border: 1px solid #e5e5e5;
-    border-radius: 2px;
-    padding: 5px;
-    width: 100%;
-}
-textarea {
-    border: 1px solid #e5e5e5;
-    border-radius: 2px;
-    padding: 5px;
-    width: 100%;
-}
-.wrapper {
-    width: 50%;
-    margin: auto;
-}
-.container {
-    border: 1px solid #e5e5e5;
-    padding: 10px;
-    margin-bottom: 10px;
-}
 ul.nav {
     border: 1px solid lightgray;
     border-top: 0px;
     height: 100px;
-    height: 100%; 
+    height: 100%;
     background-color: #619AE6;
     list-style: none;
     border-radius: 0px 0px 300px 300px / 0px 0px 50px 60px;
     color: white;
     line-height: 36px;
     text-align: center;
-    margin-top: -8px;
 }
 ul.nav li {
     float: left;
@@ -54,15 +32,13 @@ ul.nav li.current a {
 footer {
     position: absolute;
     border-radius: 2px;
+    margin-left:5px;
     padding: 5px;
     right: 4px;
     bottom: 0;
     width: 99%;
     height: 60px;
     background: #619AE6;
-    /*background: #EE2E24;*/
-    /* background: #32A23D;*/
-    /* background: #EED011;*/
 }
 .centerIcon {
     text-align: center;
@@ -70,23 +46,46 @@ footer {
 .menuItems {
     display: inline-block;
 }
-.contactHalf {
-    display: inline-block;
-    padding: 10px;
-    width: 47%;
+.menuImage{
+    Position: absolute;
+    left: 30px;
+    top: 30px;
+    width: 13%;
+    height: 20%;
+    text-align:left;
 }
-.contactFull {
-    padding: 10px;
-    width: 97%;
+.menuImage > img{
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
 }
-.btnOveral {
-    border: 1px solid #e5e5e5;
-    border-radius: 2px;
-    padding: 10px;
-    color: white;
-    background-color: #FF7604;
+
+.bestellen{
+    position:absolute;
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top:2%;
+    margin-left:20%;
+    margin-right:20%;
+    padding:10px;
+    width:60%;
+    height:auto;
+    border:solid;
 }
-.btnOveral:hover {
-    cursor: pointer;
-    opacity: 0.9;
+
+.bestellen > img{
+    width:50%;
+    height:auto;
+}
+
+.productDescription{
+    display:flex;
+    flex-direction:column;
+    margin:5px;
+}
+
+#prijs{
+    color:red;
+    margin:0;
 }

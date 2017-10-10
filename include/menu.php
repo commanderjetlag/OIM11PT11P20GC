@@ -1,5 +1,8 @@
-<ul class="nav">  
-    <div class="menuItems">  
+<ul class="nav">
+    <div class = "menuImage">
+        <img src="img/logo_memory_game.png" alt = "Logo could not be displayed" >
+    </div>
+    <div class="menuItems">
         <li>
             <a class="centerIcon" href="index" title="Home">
                 <i class="fa fa-home fa-lg" aria-hidden="true"></i><br/>
@@ -13,7 +16,7 @@
             </a>
         </li>
         <li>
-            <a class="centerIcon" href="bestellen" title="Bestel The Memory Game">
+            <a class="centerIcon" href="Bestellen.php" title="Bestel The Memory Game">
                 <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i><br/>
                 Bestellen
             </a>

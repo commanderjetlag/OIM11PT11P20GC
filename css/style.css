@@ -32,6 +32,7 @@ ul.nav li.current a {
 footer {
     position: absolute;
     border-radius: 2px;
+    margin-left:5px;
     padding: 5px;
     right: 4px;
     bottom: 0;
@@ -57,4 +58,34 @@ footer {
     max-width: 100%;
     height: auto;
     width: auto\9; /* ie8 */
+}
+
+.wrapperBestellen{
+    position:absolute;
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top:2%;
+    margin-left:20%;
+    margin-right:20%;
+    padding:10px;
+    width:60%;
+    height:auto;
+    border:solid;
+}
+
+.wrapperBestellen > img{
+    width:50%;
+    height:auto;
+}
+
+.productDescription{
+    display:flex;
+    flex-direction:column;
+    margin:5px;
+}
+
+#prijs{
+    color:red;
+    margin:0;
 }

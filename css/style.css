@@ -26,7 +26,7 @@ ul.nav {
     border: 1px solid lightgray;
     border-top: 0px;
     height: 100px;
-    height: 100%; 
+    height: 100%;
     background-color: #619AE6;
     list-style: none;
     border-radius: 0px 0px 300px 300px / 0px 0px 50px 60px;
@@ -90,3 +90,55 @@ footer {
     cursor: pointer;
     opacity: 0.9;
 }
+
+menuImage{
+    Position: absolute;
+    left: 30px;
+    top: 30px;
+    width: 13%;
+    height: 20%;
+    text-align:left;
+}
+.menuImage > img{
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+.bestellen{
+    position:absolute;
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top:2%;
+    margin-left:20%;
+    margin-right:20%;
+    padding:10px;
+    width:60%;
+    height:auto;
+    border:solid;
+}
+
+.bestellen > img{
+    width:50%;
+    height:auto;
+}
+
+.productDescription{
+    display:flex;
+    flex-direction:column;
+    margin:5px;
+}
+
+#prijs{
+    color:red;
+    margin:0;
+}
+
+#btnKoop{
+    background-color:#f2c626;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;

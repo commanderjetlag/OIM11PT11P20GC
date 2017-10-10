@@ -20,9 +20,15 @@ textarea {
     padding: 5px;
     width: 100%;
 }
+body{
+    background-color:grey;
+}
 .wrapper {
     width: 50%;
     margin: auto;
+    background-color:white;
+    z-index:-1;
+    height:85vh;
 }
 .container {
     border: 1px solid #e5e5e5;
@@ -41,6 +47,7 @@ ul.nav {
     line-height: 36px;
     text-align: center;
     margin-top: -8px;
+    margin-bottom:0;
 }
 ul.nav li {
     float: left;
@@ -110,43 +117,56 @@ footer {
     height: auto;
     width: auto\9; /* ie8 */
 }
-.bestellen{
-    position:absolute;
-    display:flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-top:2%;
-    margin-left:20%;
-    margin-right:20%;
-    padding:10px;
-    width:60%;
-    height:auto;
-    border:solid;
-}
-.bestellen > img{
-    width:50%;
-    height:auto;
-}
+
 .productDescription{
-    display:flex;
-    flex-direction:column;
-    margin:5px;
+    display:inline-block;
+
 }
 #prijs{
     color:red;
     margin:0;
 }
+#oudeprijs{
+    color:grey;
+    margin:0;
+    text-decoration:line-through;
+}
 #btnKoop{
-    background-color:#f2c626;
-    border: none;
-    color: white;
     padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
+}
+#productfoto{
+    display:inline-block;
+    margin-right:10px;
+}
+#informatietekst{
+    margin:20px 50px;
+    margin-bottom:100px;
+    text-align:justify;
+}
+#productinformatie{
+    margin: 20px 0;
+}
+
+#fotoenbeschrijving{
+    padding-left:50px;
+}
+#infolabel{
+    margin-left:50px;
+}
+#reviewlabel{
+    margin-left:50px;
 }
 .nieuwsItem {
     padding: 10px 0px;
     font-size: 90%;
+}
+.review{
+    margin:20px 50px;
+    text-align:justify;
+    border:solid;
+    border-color:#e5e5e5;
+    border-width:1px;
+    padding:30px;
 }
 .footerBox {
     text-align: center;
